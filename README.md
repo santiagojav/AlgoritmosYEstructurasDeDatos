@@ -21,11 +21,9 @@ git add <archivo(s)> #agrega archivos que quiero guardar para hacer una mini ver
 
 git add . #agrega todo de la carpeta donde me paro.
 
-git commit -m "<mesage>" # crea una version del codigo.
+git commit -m "<mesage>" # guarda lo del git add, y puedo elejir que archivos. crea una version del codigo.
 
 git push --set-upstream origin main # subir los cambios de mi compu a git hub cuando la rama es nueva.
 
-git push # subir los cambios de mi compu a git hub. si es nuevo me avisa. 
-
-
+git push # subir los cambios de mi compu a git hub. si es nuevo me avisa.
 ```
