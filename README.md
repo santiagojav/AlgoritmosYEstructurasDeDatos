@@ -26,4 +26,14 @@ git commit -m "<mesage>" # guarda lo del git add, y puedo elejir que archivos. c
 git push --set-upstream origin main # subir los cambios de mi compu a git hub cuando la rama es nueva.
 
 git push # subir los cambios de mi compu a git hub. si es nuevo me avisa.
+
+git switch <nombre-de-la-rama> # cambia la rama donde estas codeando
+
+git switch -c <nombre-de-la-nueva-rama> # crea una rama **y te cambia hacia la rama**
+
+git switch <hash-del-commit> --detach # cambias a una version (commit) diferente
+
+git log # muestra el historial de commits del repositorio
+
+git pull # "trae" los cambios que esten en el repositorio remoto y no en el local
 ```
