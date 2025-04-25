@@ -15,9 +15,11 @@ int main(){
 
     cout << '\n' << "Ingresa cuantos bultos entrarian por caja: "; 
     cin >> bultosCaja;
+
     if(bultosCaja = 0){
         cout << "pone bien los datos, pero tu resultado seria: " << bultosStock << endl; 
     }
+
     cajasCompletas = bultosStock / bultosCaja;
     resto = bultosStock % bultosCaja; 
 
