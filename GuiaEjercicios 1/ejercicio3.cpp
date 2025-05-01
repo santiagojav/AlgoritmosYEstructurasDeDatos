@@ -11,7 +11,8 @@ int main(){
     x = a;
     a = b;
     b = x;
-
+    // sawp(a,b); 
+    // a,b = b,a;
     cout << "Pero ahora \"a\" vale: " << a << '\n'<< "y \"b\" vale: " << b ;
 
     return 0; 
