@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     unsigned long long arroz = 1; // omito el 2^0 poniendo 1 porque depsues cuando lo multiplico por 2 me caga
-    unsigned long long todo = 0;
+    unsigned long long todo = 1;
     int i;
     // (2^64)-1, es decir,  2^1+ 2^2+ 2^3+...+2^63 = 2^64-1
 
@@ -13,7 +13,7 @@ int main(){
         todo += arroz;  
     }
 
-    cout << "La cantidad de arroz es: " << todo + 1 << endl; // por eso le sumo uno aca (solucion berreta)
+    cout << "La cantidad de arroz es: " << todo << endl; 
 
     return 0;
 }
