@@ -8,7 +8,7 @@ int main(){
     int i;
     // (2^64)-1, es decir,  2^1+ 2^2+ 2^3+...+2^63 = 2^64-1
 
-    for (i = 0; i <= 64; i++){
+    for (i = 0; i < 65; i++){ // se acostumbra a poner un limite de hasta donde no puedo llegar (costumbre) 
         arroz = arroz * 2; // cuando hace la ultima iteracion se me pone en cero el arroz porque no entra en la variable
         todo += arroz;  
     }
