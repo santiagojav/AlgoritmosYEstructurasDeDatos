@@ -11,6 +11,17 @@ cat archivo # te muestra todo el contenido de un archivo en al terminal.
 
 ls # te muestra las carpetas y archivos que hay.
 ```
+```
+#include <cassert> // para assert no para el static
+// es un control para el compilador
+// el siseof me indica el tamaño del sizeof que lo limita
+static assett(siseof(long) == 8, " este programa necesita que long sea de 8 bytes");
+
+int main(){
+    assert(cuatro == 4); 
+}
+```
+
 ### COMANDOS DE GIT
 ```bash
 git clone <url de github> # clona el repositorio de github, te crea una carpeta con el codigo en tu compu.
