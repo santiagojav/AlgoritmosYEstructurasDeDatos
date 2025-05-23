@@ -16,7 +16,8 @@ int main(){
     cin >> fecha;
 
     serruchado(fecha, dia, mes, anio);
-
+// variante
+/* cout << "fecha formato." << setw(2) << setfill('0')*/
     cout << "Fecha formateada (DD/MM/AAAA): ";
         if (dia < 10){cout << "0";
         cout << dia << "/";
